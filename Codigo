@@ -35,3 +35,12 @@ int main() {
     std::cout << "Número de palabras: " << numPalabras << std::endl;
     return 0;
 }
+botpress.on('message', (message) => {
+  if (message.text === '¿Quién es la más linda?') {
+    botpress.sendMessage({
+      text: 'Tu bb',
+      channel: 'web'
+    });
+  }
+});
+```

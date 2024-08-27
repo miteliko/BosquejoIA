@@ -4,3 +4,26 @@ int main() {
     std::cout << "Hola, mundo!" << std::endl;
     return 0;
 }
+#include <iostream>
+#include <string>
+
+int contarPalabras(std::string oracion) {
+    int contador = 0;
+    std::string palabra = "";
+    for (char c : oracion) {
+        if (c == ' ') {
+            contador++;
+            palabra = "";
+        } else {
+            palabra += c;
+        }
+    }
+    return contador + 1;
+}
+
+int main() {
+    std::string oracion = "Hola, esto es un programa de IA";
+    int numPalabras = contarPalabras(oracion);
+    std::cout << "Número de palabras: " << numPalabras << std::endl;
+    return 0;
+}

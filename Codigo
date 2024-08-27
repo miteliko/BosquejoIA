@@ -3,43 +3,14 @@ const botpress = require('botpress');
 
 botpress.configure({
   token: 'bp_pat_vECd9oGFRdpNNi9QP5Jgbgl2dyPXlPRG7ZeB',
-  url: '(https://studio.botpress.cloud/297f4a12-c8bb-4dac-a355-ceee9964fcdf/flows/wf-main)  ',
+  url: '(link unavailable)',
 });
 
-#include <iostream>
-
-int main() {
-    std::cout << "Hola, mundo!" << std::endl;
-    return 0;
-}
-#include <iostream>
-#include <string>
-
-int contarPalabras(std::string oracion) {
-    int contador = 0;
-    std::string palabra = "";
-    for (char c : oracion) {
-        if (c == ' ') {
-            contador++;
-            palabra = "";
-        } else {
-            palabra += c;
-        }
-    }
-    return contador + 1;
-}
-
-int main() {
-    std::string oracion = "Hola, esto es un programa de IA";
-    int numPalabras = contarPalabras(oracion);
-    std::cout << "Número de palabras: " << numPalabras << std::endl;
-    return 0;
-}
 botpress.on('message', (message) => {
   if (message.text === '¿Quién es la más linda?') {
     botpress.sendMessage({
       text: 'Tu bb',
-      channel: 'web'
+      channel: 'web',
     });
   }
 });

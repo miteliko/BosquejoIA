@@ -3,7 +3,7 @@ const botpress = require('botpress');
 
 botpress.configure({
   token: 'bp_pat_vECd9oGFRdpNNi9QP5Jgbgl2dyPXlPRG7ZeB',
-  url: '(link unavailable)',
+  url: 'https://webhook.botpress.cloud/a6d08c8a-aa83-4119-9af1-930421fba91a',
 });
 
 botpress.on('message', (message) => {

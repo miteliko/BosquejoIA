@@ -3,7 +3,7 @@ const botpress = require('botpress');
 
 botpress.configure({
   token: 'bp_pat_vECd9oGFRdpNNi9QP5Jgbgl2dyPXlPRG7ZeB',
-  url: '(link unavailable)',
+  url: '(https://studio.botpress.cloud/297f4a12-c8bb-4dac-a355-ceee9964fcdf/flows/wf-main)  ',
 });
 
 #include <iostream>

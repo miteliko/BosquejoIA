@@ -1,3 +1,11 @@
+```
+const botpress = require('botpress');
+
+botpress.configure({
+  token: 'bp_pat_vECd9oGFRdpNNi9QP5Jgbgl2dyPXlPRG7ZeB',
+  url: '(link unavailable)',
+});
+
 #include <iostream>
 
 int main() {
